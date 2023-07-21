@@ -224,3 +224,140 @@ textarea {
 .socail-links a {
     margin-left: 25px;
 }
+
+
+
+@media screen and (max-width: 576px) {
+
+    nav,
+    nav>ul,
+    .banner,
+    .about-info-container,
+    .resume-container,
+    .skills-container,
+    footer {
+        flex-direction: column;
+    }
+
+    .resume-container {
+        padding: 20px;
+    }
+
+    nav>ul {
+        gap: 15px
+    }
+
+    .btn-primary {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    nav {
+        margin: 0 auto;
+    }
+
+    #what-i-do-description,
+    .banner {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    .btn-primary {
+        margin-bottom: 10px;
+    }
+
+    .about,
+    footer {
+        margin: 0 auto;
+    }
+
+    .profile-pic {
+        width: 100%;
+        height: auto;
+    }
+
+    footer,
+    .about {
+        padding: 10px;
+        align-items: center;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .socail-links {
+        text-align: center;
+    }
+
+
+    .contact input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 10px;
+        margin: 10px auto;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+
+    .skills-container {
+        flex-direction: column;
+    }
+
+    .header {
+        background-image: none;
+
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .resume-container {
+        padding: 20px;
+    }
+
+    .profile-pic {
+        width: 100%;
+        height: auto;
+    }
+
+    .about,
+    footer {
+        margin: 0 auto;
+    }
+
+    .socail-links {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+    }
+
+    footer {
+        gap: 50px;
+        padding: 100px 130px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .btn-primary {
+        margin-bottom: 10px;
+    }
+
+    .about,
+    footer {
+        margin: 0 auto;
+    }
+
+    .resume-container {
+        padding: 20px;
+    }
+
+}
