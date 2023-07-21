@@ -1,4 +1,4 @@
-# developer-protfolio-desing-not-responsive
+# developer-protfolio-desing-responsive
 #html #Css
 
 This is a simple landing page design. I  made this for practice purposes.
